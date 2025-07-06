@@ -1,0 +1,49 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2509 entries, 0 to 2508
+Data columns (total 39 columns):
+ #   Column                          Non-Null Count  Dtype  
+---  ------                          --------------  -----  
+ 0   Study ID                        2509 non-null   object 
+ 1   Patient ID                      2509 non-null   object 
+ 2   Sample ID                       2509 non-null   object 
+ 3   Age at Diagnosis                2498 non-null   float64
+ 4   Type of Breast Surgery          1955 non-null   object 
+ 5   Cancer Type                     2509 non-null   object 
+ 6   Cancer Type Detailed            2509 non-null   object 
+ 7   Cellularity                     1917 non-null   object 
+ 8   Chemotherapy                    1980 non-null   object 
+ 9   Pam50 + Claudin-low subtype     1980 non-null   object 
+ 10  Cohort                          2498 non-null   float64
+ 11  ER status measured by IHC       2426 non-null   object 
+ 12  ER Status                       2469 non-null   object 
+ 13  Neoplasm Histologic Grade       2388 non-null   float64
+ 14  HER2 status measured by SNP6    1980 non-null   object 
+ 15  HER2 Status                     1980 non-null   object 
+ 16  Tumor Other Histologic Subtype  2374 non-null   object 
+ 17  Hormone Therapy                 1980 non-null   object 
+ 18  Inferred Menopausal State       1980 non-null   object 
+ 19  Integrative Cluster             1980 non-null   object 
+ 20  Primary Tumor Laterality        1870 non-null   object 
+ 21  Lymph nodes examined positive   2243 non-null   float64
+ 22  Mutation Count                  2358 non-null   float64
+ 23  Nottingham prognostic index     2287 non-null   float64
+ 24  Oncotree Code                   2509 non-null   object 
+ 25  Overall Survival (Months)       1981 non-null   float64
+ 26  Overall Survival Status         1981 non-null   object 
+ 27  PR Status                       1980 non-null   object 
+ 28  Radio Therapy                   1980 non-null   object 
+ 29  Relapse Free Status (Months)    2388 non-null   float64
+ 30  Relapse Free Status             2488 non-null   object 
+ 31  Number of Samples Per Patient   2509 non-null   int64  
+ 32  Sample Type                     2509 non-null   object 
+ 33  Sex                             2509 non-null   object 
+ 34  3-Gene classifier subtype       1764 non-null   object 
+ 35  TMB (nonsynonymous)             2509 non-null   float64
+ 36  Tumor Size                      2360 non-null   float64
+ 37  Tumor Stage                     1788 non-null   float64
+ 38  Patient's Vital Status          1980 non-null   object 
+dtypes: float64(11), int64(1), object(27)
+memory usage: 764.6+ KB
+データフレームの形状: (2509, 39)
+行数: 2509
+列数: 39

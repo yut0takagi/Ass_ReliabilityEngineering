@@ -39,6 +39,7 @@ llvmlite==0.44.0
 MarkupSafe==3.0.2
 matplotlib==3.10.0
 matplotlib-inline==0.1.7
+missingno==0.5.2
 multimethod==1.12
 nest-asyncio==1.6.0
 networkx==3.5

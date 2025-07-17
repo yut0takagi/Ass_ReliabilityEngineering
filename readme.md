@@ -45,7 +45,11 @@
 
 * 多変量モデルに対して `proportional_hazard_test()` を用い、Schoenfeld残差検定を再度実施し、時間依存性がないことを確認した。
 
-### (カ) ソフトウェア
+### (カ) Weibull AFT
+
+* 完全パラメトリックモデルを用いた Weibull AFT モデルを構築した。   
+
+### (キ) ソフトウェア
 
 * 解析は主に Python（`pandas`, `lifelines`, `matplotlib`, `ydata_profiling`）上で実施し、コードと設定を GitHub でバージョン管理した。
 * Python バージョンは 3.11.7 を使用し、`pipenv` による仮想環境構築を行った。
